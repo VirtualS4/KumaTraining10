@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Beartivity3">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/rgroup"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/celcius"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Celcius"/>
+            <RadioButton
+                android:id="@+id/fahren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fahrenheit"/>
+            <RadioButton
+                android:id="@+id/kelvin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelvin"/>
+            <RadioButton
+                android:id="@+id/reamur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reamur"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <EditText
+
+        android:inputType="number"
+        android:id="@+id/angka1"
+        android:layout_width="match_parent"
+        android:hint="Masukan Suhu"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Hitung"
+        android:textColor="#FFFFFF"
+        android:id="@+id/btn_hitung"
+        android:layout_width="match_parent"
+        android:background="#A50000"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/txt_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_f"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_k"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txt_r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
